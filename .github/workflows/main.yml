@@ -17,7 +17,7 @@ jobs:
           source_repo: "git@gitee.com:lxk0301/jd_scripts.git"
           source_branch: "master"
           destination_repo: "https://Phil2048:13a78c7ff0b92bc0be779a59062327620db5d6e0@github.com/Phil2048/test.git"
-          destination_branch: "main"
+          destination_branch: "master"
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} # optional
           source_ssh_private_key: ${{ secrets.SOURCE_SSH_PRIVATE_KEY }} # optional, will override `SSH_PRIVATE_KEY`
           destination_ssh_private_key: ${{ secrets.DESTINATION_SSH_PRIVATE_KEY }} # optional, will override `SSH_PRIVATE_KEY`
